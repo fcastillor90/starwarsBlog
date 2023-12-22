@@ -1,0 +1,36 @@
+body{
+    background: black;
+}
+
+
+.card-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .card-group {
+    flex-wrap: nowrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+  
+  .card-item {
+    flex: 0 0 auto;
+    width: 18rem;
+    margin-right: 1rem;
+  }
+  
+  .card-img-container {
+    height: 200px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .favorites-dropdown {
+    margin-left: auto;
+  }
+  
+  
